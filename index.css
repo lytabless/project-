@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+
+
+body{
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+.nav{
+    margin: 2%;
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 20px;
+ 
+}
+
+.si{
+    color: red;
+}
+
+.i{
+    color: red;
+}
+
+.o{
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px 10px;
+    background-color: rgb(66, 64, 64);
+    width: 80% ;
+    border-radius: 2px;
+}
+.o :hover{
+    color: orange;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.search{
+    color: white;
+    width: 25%;
+    height: 30%;
+    background-color: rgb(54, 54, 53);
+    border-radius: 5px;
+    padding: 5px 3px;
+}
+
+.hh{
+    color: red;
+}
+
+.All {
+    margin: 2%;
+    width: 100%;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+   
+    justify-content: space-between;
+
+
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.hero_details{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    line-height: 30px;
+
+}
+
+#hero_text{
+    margin-right: 322px;
+       
+}
+.browse {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    
+
+
+}
+
+#btn-discover{
+    margin-right: 322px;
+    background-color: #D61012;
+    color: white;
+    width: 30%;
+    height: 2rem;
+    border-radius: 5px;
+    pad: 10px;
+
+}
+.img{
+    align-items: right;
+    align-items: right;
+    justify-content: right;
+    padding-left: 10px;
+        
+}
+
+.p{
+    display: flex;
+
+}
+.pics{
+    margin: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    color: red;
+    
+}
+list{
+    margin: 2%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #343232;
+    padding: 10px 10px;
+    
+    
+}
+.list :hover{
+    color: orange;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.tr{
+    margin: 2%;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+

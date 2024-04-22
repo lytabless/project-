@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+
+
+body{
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+.nav{
+    margin: 2%;
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 20px;
+ 
+}
+
+.si{
+    color: red;
+}
+
+.i{
+    color: red;
+}
+
+.o{
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px 10px;
+    background-color: rgb(66, 64, 64);
+    width: 80% ;
+    border-radius: 2px;
+}
+.o :hover{
+    color: orange;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.search{
+    color: white;
+    width: 25%;
+    height: 30%;
+    background-color: rgb(54, 54, 53);
+    border-radius: 5px;
+    padding: 5px 3px;
+}
+
+.hh{
+    color: red;
+}
+
+.All {
+    margin: 2%;
+    width: 100%;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+}
+
+ss
+
+.p{
+    display: flex;
+
+}
+.pics{
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    color: red;
+    
+}
+ hr{
+    margin: 2px;
+    width: 900px ;
+height: 0.1px
+ }
+
+.tr{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    
+
+}
+.imagediv{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
